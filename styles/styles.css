@@ -42,7 +42,10 @@ h6 {
 p {
 	color: #c8a581;
 }
-
+.about h2,
+.about p {
+    color: #160f04;
+}
 
 /* Elements
 --------------------------------------------- */
@@ -110,7 +113,7 @@ a:focus {
 
 .page-header img {
     width: 100%;
-    height: auto;
+    height: auto;    
 }
 
 .page-header h1,
@@ -187,6 +190,14 @@ a:focus {
     padding: 1rem;
 }
 
+.about{
+    background-color:#7b5b3e;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
 @media (min-width: 50em) {
@@ -212,7 +223,14 @@ a:focus {
     section h2 {
         margin: 1rem;
         padding: 1rem;
-        
+    }
+
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 4rem;
+        padding: 4rem;
     }
 
 }
@@ -220,3 +238,32 @@ a:focus {
         
 /* Footer
 --------------------------------------------- */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+@media (min-width:50em) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-wrapper {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        gap: 3rem;
+    }
+    .icon {
+        width: 3rem;
+        height: 3rem;
+        justify-content: space-between;
+        
+    }
+    
+}
