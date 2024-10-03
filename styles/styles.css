@@ -25,6 +25,7 @@
 body {
     
 	font-size: 1.5rem;
+    background-color: #4b3017;
 }
 
 h1,
@@ -33,13 +34,13 @@ h3,
 h4,
 h5,
 h6 {
-	
+	color: #c8a581;
 }
 
 
 
 p {
-	
+	color: #c8a581;
 }
 
 
@@ -72,20 +73,20 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	
+    text-decoration: none;
+    color: #c8a581;
 }
-
-a:hover {
-	
-}
-
+/* a:hover,
 a:focus {
-	
-}
+    text-decoration: none;
+    
+} */
 
-a:active {
-	
-}
+/* a:active {
+    text-decoration: none;
+	color: #FEFAE0;
+} */
+
 
 
 /*--------------------------------------------------------------
@@ -100,14 +101,15 @@ a:active {
 
 /* Header
 --------------------------------------------- */
-.site-header
+.site-header,
 footer{
-    background-color: #BC6C25;
-    width: 100%;
-    
+   
+ 
 }
 
 .page-header {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     text-align: center;
 }
@@ -138,7 +140,16 @@ footer{
 
 /* Main
 --------------------------------------------- */
-
-
+.site-section{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.site-section h2 {
+    text-align: center;
+    margin: 2rem;
+}
 /* Footer
 --------------------------------------------- */
