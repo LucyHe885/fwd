@@ -3,38 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing-page</title>
     <link rel="stylesheet" href="styles/normalize-fwd.css">
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+<body id="top">
     <div>
         <header class="site-logo">
             <a href=""></a>
         </header>
         <nav class="site-nav">
             <ul class="meun">
-                <li><a href="#home"></a>Home</li>
-                <li><a href="#about"></a>About</li>
-                <li><a href="#project"></a>Porject</li>
-                <li><a href="#contact"></a>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
-    <main class="site-main">
+    <main class="site-main" id="home">
         <header>
             <h1>Hi, I'm Lucy</h1>
             <p>Front-End Web Developer</p>
+            <img src="images/sunflower.jpg" alt="A sunflower">
         </header>
 
         <article>
-            <section>
+
+            <section id="project">
+                <h2>My Project</h2>
+                <div>
+                    <h3>HTML / CSS Projects</h3>
+                    <a href="#">
+                        <img width="720" src="images/sunflower-withsky.jpg" alt="Sunflowers with sky">
+                    </a>
+
+                    <h3>JavaScript Projects</h3>
+                    <a href="#">
+                        <img width="720" src="images/sunflower-withsky.jpg" alt="Sunflowers with sky">
+                    </a>
+
+                    <h3>WordPress Sites</h3>
+                    <a href="#">
+                        <img width="720" src="images/sunflower-withsky.jpg" alt="Sunflowers with sky">
+                    </a>
+
+                    <h3>Online Stores</h3>
+                    <a href="#">
+                        <img width="720" src="images/sunflower-withsky.jpg" alt="Sunflowers with sky">
+                    </a>
+                </div>
+    
+            </section>
+
+            <section id="about">
                 <h2>About me</h2>
                 <p>"Hi, I'm Lucy, a student currently focusing on front-end development. I'm passionate about improving my skills and working towards becoming a professional in the field. In my free time, I enjoy drawing and playing video games, which help me stay creative and relaxed.</p>
             </section>
 
+
         </article>
         
     </main>
+
+    <footer id="contact">
+        <h2>Contact me</h2>
+        <a href="#">
+            <img src="images/icon-email.png" alt="email icon">
+        </a>
+
+        <a href="#">
+            <img src="images/icon-phone.png" alt="phone icon">
+        </a>
+
+        <a href="#top">Back to top</a>
+
+        <p>@ 2024 Lucy He</p>
+        
+    </footer>
 </body>
 </html>
