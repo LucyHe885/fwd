@@ -163,15 +163,24 @@ a:focus {
 
 /* Main
 --------------------------------------------- */
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+}
+
 .site-section{
 
     display: flex;
     flex-direction: column;
-    padding: 1rem; 
     align-items: center;
+    padding: 1rem; 
     flex-basis: 100%;
     max-width: 100%;
 }
+
 .site-main h2 {
     text-align: center;
     margin: 2rem;
@@ -187,13 +196,15 @@ a:focus {
         flex-direction: row;
         justify-content: space-around;
         gap: 1rem;
-        padding: 1 1 auto;
+        margin-bottom: 1rem;
         flex-basis: 30%;
         max-width: 30%;
     }
+
     .site-section img {
         width: 100%;
     }
+
     .site-section h3 {
         text-align: center;
     }
@@ -205,5 +216,7 @@ a:focus {
     }
 
 }
+
+        
 /* Footer
 --------------------------------------------- */
