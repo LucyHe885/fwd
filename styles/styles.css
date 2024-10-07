@@ -259,11 +259,5 @@ footer {
         justify-content: center; 
         gap: 3rem;
     }
-    .icon {
-        width: 3rem;
-        height: 3rem;
-        justify-content: space-between;
-        
-    }
     
 }
