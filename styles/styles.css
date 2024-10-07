@@ -205,7 +205,7 @@ a:focus {
     flex-wrap: wrap;
 }
 
-.projects-wrapper {
+.project-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -214,7 +214,6 @@ a:focus {
 }
 
 .site-section{
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,16 +239,12 @@ a:focus {
 
 
 @media (min-width: 50em) {
-    .site-main {
-        display: flex;
-        flex-wrap: wrap;
+    .project-wrapper{
+        justify-content: space-between;
     }
+
     .site-section{
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
-        gap: 1rem;
         margin-bottom: 1rem;
         flex-basis: 30%;
         max-width: 30%;
@@ -257,6 +252,7 @@ a:focus {
 
     .site-section img {
         width: 100%;
+        max-width: 100%;
     }
 
     .site-section h3 {
@@ -269,8 +265,6 @@ a:focus {
     }
 
     .about{
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         margin: 4rem;
         padding: 4rem;
