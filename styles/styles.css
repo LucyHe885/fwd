@@ -200,6 +200,11 @@ a:focus {
 
 /* Main
 --------------------------------------------- */
+.site-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .projects-wrapper {
     display: flex;
     flex-wrap: wrap;
