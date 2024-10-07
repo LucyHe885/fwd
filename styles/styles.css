@@ -102,6 +102,9 @@ a:focus {
 
 /* Header
 --------------------------------------------- */
+.sit-logo {
+    width: 120;
+}
 
 .page-header {
     display: flex;
