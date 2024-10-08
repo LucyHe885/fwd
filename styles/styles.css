@@ -78,8 +78,9 @@ p {
     justify-content: flex-end;
    
 }
-.site-nav li {
+.site-nav li a {
     padding: 1rem;
+    display: block;
 }
 
 @media (min-width:50em) {
@@ -91,8 +92,9 @@ p {
         gap: 3rem;
         margin: .5rem 0;
     }
-    .site-nav li {
+    .site-nav li a {
         padding: 1rem;
+        display: block;
     }
 }
 
