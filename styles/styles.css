@@ -359,6 +359,7 @@ footer {
    margin: 0 .3rem 0;
    
 }
+
 @media (min-width:50em) {
     footer{
         display: flex;
