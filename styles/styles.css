@@ -75,8 +75,8 @@ a {
     
 }
 .site-logo {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -97,6 +97,9 @@ a {
 }
 
 @media (min-width:50em) {
+    .site-logo{
+        justify-content: flex-start;
+    }
     .site-nav ul {
         font-size: 1.125rem;
         display: flex;
@@ -357,7 +360,7 @@ footer {
 }
 .icon {
    margin: 0 .3rem 0;
-   
+   fill: #e5d1bd;
 }
 
 @media (min-width:50em) {
